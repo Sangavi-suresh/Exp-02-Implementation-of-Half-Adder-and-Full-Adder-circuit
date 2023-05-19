@@ -40,28 +40,30 @@ Program:
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 Developed by: sangavi suresh
 RegisterNumber:212222230130  
-module halfadder(A,B,C,S);
-input A,B;
-output S,C;
-xor(S,A,B);
-and(C,A,B);
+## HALF ADDER PROGRAM :
+module fulladd (a,b,sum,carry);
+input a,b;
+output sum,carry;
+assign sum = (a^b);
+assign carry = (a&b);
 endmodule
 
-FULL ADDER:
-
-module fulladd(A,B,Ci,S,Co);
-input A,B,Ci;
-output S,Co;
-wire D,E,F;
-xor(D,A,B);
-xor(S,D,Ci);
-and(E,Ci,D);
-and(F,A,B);
-or(Co,E,F);
+ ## FULL ADDER PROGRAM:
+module fulladd (a,b,c,sum,carry);
+input a,b,c;
+output sum,carry;
+assign sum = (a^b^c);
+assign carry = ((a&b)|(a^b)&c);
 endmodule
+
 */
 
 Logic symbol & Truthtable
+HALF ADDER:
+![image](https://github.com/Sangavi-suresh/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/118541861/993886b2-0dcc-479e-a882-3d121790c6b7)
+
+FULL ADDER:
+![image](https://github.com/Sangavi-suresh/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/118541861/33e45266-042b-4b99-b8d5-94f1e6a39d9c)
 
 ### Output:
 RTL realisation
