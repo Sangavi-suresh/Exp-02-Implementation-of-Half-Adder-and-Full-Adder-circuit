@@ -69,7 +69,8 @@ FULL ADDER:
 RTL realisation
 
 RTL realisation of half adder:
-![image](https://github.com/Sangavi-suresh/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/118541861/e57aa5c0-3d0b-4636-9615-226ecd5124f4)
+![image](https://github.com/Sangavi-suresh/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/118541861/0e997b08-8c46-4050-8d4f-78dfcdc494c7)
+
 
 RTL realisation of full adder:
 ![image](https://github.com/Sangavi-suresh/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/118541861/96fa2eb7-593f-40f4-a1b6-ea639306c2f7)
